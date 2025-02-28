@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: coffee --default;
+}
+@theme {
+  --font-fancy: 'Saira Semi Condensed';
+}
+
+#root {
+  text-align: center;
+  font-family: font-fancy;
+}
+
+.center-container {
+  @apply mx-auto lg:w-2/4 md:w-3/4 w-[95%]
+}
+
+.mood-center-container {
+  @apply mx-auto lg:w-3/5 md:w-3/4 w-[95%]
+}
+
+@layer base {
+  * {
+    font-family: 'Saira Semi Condensed', sans-serif !important;
+  }
+}
+
