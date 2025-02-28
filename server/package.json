@@ -2,7 +2,7 @@
   "name": "my-backend-server",
   "version": "1.0.0",
   "description": "A backend server for managing movies using GraphQL, Node.js, Express, and MongoDB.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
     "start": "ts-node src/index.ts",
